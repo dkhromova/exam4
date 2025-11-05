@@ -25,8 +25,8 @@ public class E2ETests extends BasePage {
     @Description("Добавление товаров в корзину и оформление доставки обычным пользователем")
     @Tags({@Tag("Позитивный"), @Tag("Смоук")})
     @Test
-    public void e2eStandartUserTest() {
-        String[] products = {"Sauce Labs YYYYYY", "Sauce Labs Bolt T-Shirt", "Sauce Labs Onesie"};
+    public void e2eStandardUserTest() {
+        String[] products = {"Sauce Labs Backpack", "Sauce Labs Bolt T-Shirt", "Sauce Labs Onesie"};
 
         loginPage
                 .setUsername("standard_user")
